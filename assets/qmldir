@@ -1,0 +1,3 @@
+module assets
+Style 1.0 Style.qml
+singleton Presenter 1.0 Presenter.qml
