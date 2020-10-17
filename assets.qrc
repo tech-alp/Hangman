@@ -1,2 +1,7 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/assets">
+        <file alias="Style.qml">assets/Style.qml</file>
+        <file alias="qmldir">assets/qmldir</file>
+        <file alias="Presenter.qml">assets/Presenter.qml</file>
+    </qresource>
+</RCC>

@@ -1,5 +1,7 @@
 <RCC>
-    <qresource prefix="/">
-        <file>main.qml</file>
+    <qresource prefix="/view">
+        <file alias="MasterView.qml">view/MasterView.qml</file>
+        <file alias="ShowArea.qml">view/ShowArea.qml</file>
+        <file alias="ResultPanel.qml">view/ResultPanel.qml</file>
     </qresource>
 </RCC>

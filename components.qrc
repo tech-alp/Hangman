@@ -1,2 +1,9 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/images">
+        <file alias="heart.svg">components/images/heart.svg</file>
+    </qresource>
+    <qresource prefix="/components">
+        <file alias="ShowRemaningLife.qml">components/ShowRemaningLife.qml</file>
+        <file alias="qmldir">components/qmldir</file>
+    </qresource>
+</RCC>
