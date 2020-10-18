@@ -11,7 +11,6 @@ Window {
     title: qsTr("Hangman")
     color: "#f1f1f1"
 
-
     Connections {
         target: Mastercontroller.ui_navigationController
         onGoResultPanelView:
@@ -28,7 +27,14 @@ Window {
 
     StackView {
         id: contentFrame
-        anchors.fill: parent
+        anchors {
+            top: showRemainigLife.bottom
+            bottom: parent.bottom
+            left: parent.left
+            right: parent.right
+            margins: 40
+        }
+
         initialItem: Qt.resolvedUrl("qrc:/view/ShowArea.qml")
         clip: true
     }

@@ -2,7 +2,6 @@ import QtQuick 2.12
 import assets 1.0
 
 Item {
-    anchors.fill: parent
     Text {
         id: win
         anchors.centerIn: parent

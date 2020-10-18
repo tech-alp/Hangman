@@ -4,14 +4,11 @@ import assets 1.0
 
 Item {
     id: root
-    anchors.centerIn: parent
-    width: 300
-    height: 350
-
     Rectangle {
         id: mainArea
         color: "#5555ff"
         anchors.fill: parent
+        anchors.margins: 5
         radius: 10
         gradient: Gradient {
             GradientStop {
